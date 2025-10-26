@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { usePuterStore } from "../../lib/puter";
+import { usePuterStore } from "lib/puter";
 import { useLocation, useNavigate } from "react-router";
 
 export const meta = () => [
