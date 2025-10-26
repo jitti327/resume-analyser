@@ -1,16 +1,15 @@
 import { Link } from "react-router";
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/">
-        <p className="text-2xl font-bold text-gradient">Resume Checker</p>
+        <p className="text-2xl font-bold text-gradient">RESUME CHECKER</p>
       </Link>
-      <Link to="/upload">
-        <p className="primary-button w-fit">Upload Resume</p>
+      <Link to="/upload" className="primary-button w-fit">
+        Upload Resume
       </Link>
     </nav>
   );
 };
-
-export default NavBar;
+export default Navbar;
